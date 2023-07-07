@@ -3,7 +3,6 @@ Created on 25-Jun-2023
 
 @author: Asus
 '''
-
 #arithmetic operators
 a=1
 b=2
@@ -13,6 +12,16 @@ e=15
 output=a+b*(d/b*c+a)**b-a
 print(output)
 '''
+precedence order: (),**,*,/,%,+,-
+exponential
+unary negation
+multiplication,division,modulus
+addition,subtraction
+
+mixed mode arithmetic
+both integer and floating point numbers are involved
+resulting value in float
+
 BODMAS
 op=1+2*5**2-1
 op=1+2*25-1
@@ -27,29 +36,32 @@ print(d%c)
 print(e/b)
 #here the floating value is converted into integer
 print(e//b)
-
 #logical
 print(d>4 and d<5)
 print(0 and 1)
 print(1 and 1)
 print(0 and 0)
-
 #relational
 print(3==2)
 print(10>=10)
 
+
+print(12/2)
+print(12/2.0)
+#type conversions
+ea=float(65)
+s=int(4.55)
+da=str(90)
+print(ea,s,da)
+print(type(da))
+print(type(s))
+print(type(ea))
 #membership operator
 x=["banana","carrot"]
 #in
 print("banana" in x)
 #not in
 print("banana" not in x)
-
-
-
-
-
-
 '''
 operators: symbols which are used to operate the variables
 1.arithmetic:+,-,*,/,%,**,//

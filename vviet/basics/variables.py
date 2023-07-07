@@ -2,12 +2,14 @@
 Created on 25-Jun-2023
 
 @author: Asus
+variables: these are containers for storing data values
 '''
+
 #three ways of variable declaration
-c=x=1
-a="h"
-k=9.88
-b,n=2 ,6
+c=x=1        #single value can assign to several variables
+a="h"       #string variable assignment
+k=9.88      #floating point variable
+b,n=2 ,6    #integer assignment for 2 variables
 #to add two variables
 print(c+b)    
 #to get variable type     
@@ -29,10 +31,5 @@ print(id(c))
 print(id(x))
 d=1
 print(id(d))
-'''variables: these are containers for storing data values
-'''
+''' multiple line comment'''
 #single line comment
-
-
-
-
